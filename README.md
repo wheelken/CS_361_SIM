@@ -101,7 +101,6 @@ Key Data Fields:
 •	dividend_returns: Dividends earned over the year.
 •	stock_val: The updated stock portfolio value.
 
-[![UML Diagram](https://raw.githubusercontent.com/wheelken/CS_361_SIM/main/UML_diagram.jpg)](https://raw.githubusercontent.com/wheelken/CS_361_SIM/main/UML_diagram.jpg
-)
+![UML Diagram](Main/uml-diagram.png)
 
 
