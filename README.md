@@ -1,7 +1,8 @@
 # CS_361_SIM
 Microservice: Investment Simulation API
 
-This microservice is part of a financial simulation tool.  It calculates investment portfolio performance from user-defined parameters.  It runs on Flask and communicates using a REST API. The implementation requires the Python packages numpy and scipy.
+This microservice is part of a financial simulation tool.  It calculates investment portfolio performance from user-defined parameters. 
+It runs on Flask and communicates using a REST API. The implementation requires the Python packages numpy and scipy.
 
 The packages will need to be installed with one of the following options:
 
@@ -25,7 +26,8 @@ pip.main(["install", "flask", "numpy", "scipy"])
 
 
 Communication Contract 
-This contract defines how to interact with the microservice to ensure consistency. Any updates or changes require approval from both team members.
+This contract defines how to interact with the microservice to ensure consistency. Any updates or changes require
+approval from both team members.
 
 ### How to Request Data
 ```json
