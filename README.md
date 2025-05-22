@@ -100,4 +100,4 @@ Key Data Fields:
 •	real_return_rate: The return rate adjusted for inflation.
 •	dividend_returns: Dividends earned over the year.
 •	stock_val: The updated stock portfolio value.
-![UML Diagram](https://raw.githubusercontent.com/wheelken/CS_361_SIM/main/UML_diagram.jpg)
+![image](https://github.com/user-attachments/assets/b08bd18b-b1cd-4df6-a6b2-1bf4efaa04ee)
