@@ -102,5 +102,5 @@ Key Data Fields:
 •	stock_val: The updated stock portfolio value.
 ### UML Diagram
 
-https://raw.githubusercontent.com/wheelken/CS_361_SIM%20/main/UML_diagram.jpg
+[![UML Diagram](https://raw.githubusercontent.com/wheelken/CS_361_SIM%20/main/UML_diagram.jpg)](https://raw.githubusercontent.com/wheelken/CS_361_SIM%20/main/UML_diagram.jpg) 
 
