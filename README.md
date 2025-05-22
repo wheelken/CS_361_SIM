@@ -8,7 +8,7 @@ The following packages will need to be installed with one of the following optio
 import sys
 import subprocess
 
-###Install required dependencies
+#Install required dependencies
 required_packages = ["flask", "numpy", "scipy"]
 
 for package in required_packages:
@@ -16,7 +16,7 @@ for package in required_packages:
 
 OR
 
-###Python’s Interactive Shell:
+#Python’s Interactive Shell:
 ```python
 import pip
 pip.main(["install", "flask", "numpy", "scipy"])
@@ -99,5 +99,6 @@ Key Data Fields:
 •	dividend_returns: Dividends earned over the year.
 •	stock_val: The updated stock portfolio value.
  
-![image](https://github.com/user-attachments/assets/a9b645a7-50a8-481b-8f4c-d62572b4b351)
+
+![image](https://github.com/user-attachments/assets/d224e80e-9303-448f-915a-17af1f9019a2)
 
