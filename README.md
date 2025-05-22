@@ -25,7 +25,7 @@ pip.main(["install", "flask", "numpy", "scipy"])
 
 
 Communication Contract 
-This contract defines how to interact with the microservice to ensure consistency for all teammates.
+This contract defines how to interact with the microservice to ensure consistency. Any updates or changes require approval from both team members.
 
 ### How to Request Data
 ```json
