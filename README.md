@@ -2,7 +2,9 @@
 Microservice: Investment Simulation API
 This microservice is part of a financial simulation tool.  It calculates investment portfolio performance from user-defined parameters.  It runs on Flask and communicates using a REST API. The implementation 
 The following packages will need to be installed with one of the following options:
-Python script/interactive Python session:
+
+**Python script/interactive Python session:**
+
 import sys
 import subprocess
 
@@ -14,13 +16,14 @@ for package in required_packages:
 
 OR
 
-Python’s Interactive Shell:
+**Python’s Interactive Shell:**
 import pip
 pip.main(["install", "flask", "numpy", "scipy"])
 
 
-Communication Contract (Do Not Change Once Defined)
+Communication Contract 
 This contract defines how to interact with the microservice to ensure consistency for all teammates.
+
 1. How to Request Data
 To request data from the microservice, send a GET request to:
 http://127.0.0.1:8001/sim
@@ -54,6 +57,7 @@ if response.status_code == 200:
     print(response.json())
 else:
     print(f"Error: Received status code {response.status_code}")
+    
 2. How to Receive Data
 The microservice returns simulation results as a structured JSON response.
 Example Response JSON
