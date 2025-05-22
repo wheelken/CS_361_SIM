@@ -24,7 +24,8 @@ pip.main(["install", "flask", "numpy", "scipy"])
 Communication Contract 
 This contract defines how to interact with the microservice to ensure consistency for all teammates.
 
-1. How to Request Data
+### How to Request Data
+```json
 To request data from the microservice, send a GET request to:
 http://127.0.0.1:8001/sim
 Example Request (Python)
@@ -58,35 +59,37 @@ if response.status_code == 200:
 else:
     print(f"Error: Received status code {response.status_code}")
     
-2. How to Receive Data
+## How to Receive Data
+
 The microservice returns simulation results as a structured JSON response.
-Example Response JSON
-json
+
+### **Example JSON Response**
+```json
 {
-    "results": {
-        "year_1": {
-            "inflation": 0.022,
-            "stocks": {
-                "nominal_return_rate": 0.075,
-                "nominal_returns": 15000,
-                "real_return_rate": 0.051,
-                "real_returns": 10200,
-                "dividend_returns": 500,
-                "stock_val": 115000
-            }
-        },
-        "year_2": {
-            "inflation": 0.020,
-            "stocks": {
-                "nominal_return_rate": 0.082,
-                "nominal_returns": 17000,
-                "real_return_rate": 0.060,
-                "real_returns": 12000,
-                "dividend_returns": 600,
-                "stock_val": 132000
-            }
-        }
+  "results": {
+    "year_1": {
+      "inflation": 0.022,
+      "stocks": {
+        "nominal_return_rate": 0.075,
+        "nominal_returns": 15000,
+        "real_return_rate": 0.051,
+        "real_returns": 10200,
+        "dividend_returns": 500,
+        "stock_val": 115000
+      }
+    },
+    "year_2": {
+      "inflation": 0.020,
+      "stocks": {
+        "nominal_return_rate": 0.082,
+        "nominal_returns": 17000,
+        "real_return_rate": 0.060,
+        "real_returns": 12000,
+        "dividend_returns": 600,
+        "stock_val": 132000
+      }
     }
+  }
 }
 Key Data Fields:
 •	inflation: Inflation rate for the given year.
