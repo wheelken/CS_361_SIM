@@ -8,7 +8,7 @@ The following packages will need to be installed with one of the following optio
 import sys
 import subprocess
 
-# Install required dependencies
+###Install required dependencies
 required_packages = ["flask", "numpy", "scipy"]
 
 for package in required_packages:
@@ -16,7 +16,7 @@ for package in required_packages:
 
 OR
 
-**Python’s Interactive Shell:**
+###Python’s Interactive Shell:
 import pip
 pip.main(["install", "flask", "numpy", "scipy"])
 
