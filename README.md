@@ -101,6 +101,7 @@ Key Data Fields:
 •	dividend_returns: Dividends earned over the year.
 •	stock_val: The updated stock portfolio value.
 
-![UML Diagram](Main/uml-diagram.png)
+![image](https://github.com/user-attachments/assets/b03c0d51-0a93-4407-8a08-d4c99e664fe3)
+
 
 
