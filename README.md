@@ -4,7 +4,7 @@ This microservice is part of a financial simulation tool.  It calculates investm
 The following packages will need to be installed with one of the following options:
 
 **Python script/interactive Python session:**
-
+```python
 import sys
 import subprocess
 
@@ -17,6 +17,7 @@ for package in required_packages:
 OR
 
 ###Python’s Interactive Shell:
+```python
 import pip
 pip.main(["install", "flask", "numpy", "scipy"])
 
