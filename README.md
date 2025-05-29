@@ -24,10 +24,29 @@ OR
 import pip
 pip.main(["install", "flask", "numpy", "scipy"])
 
-
 Communication Contract 
 This contract defines how to interact with the microservice to ensure consistency. Any updates or changes require
 approval from both team members.
+
+REVISED
+Once the appropriate packages have been installed locally, the microservice can be downloaded for local use or cloned from the GitHub repository.
+- For compatibility issues, please ensure you have the latest version of python installed.
+
+- For common errors with GitHub
+1) ‘fatal: not a git repository’ - check for any typos, and try removing then reinitializing 
+
+Fatal: refusing to merge unrelated histories-
+Use the following git flag in the CLI: –allow-unrelated-histories.
+followed by : git pull origin master --allow-unrelated-histories
+
+‘fatal: remote origin already exists’
+1) Update the pointing URL of the handler by running the set-url command, then following it up with the handler name (usually origin), and lastly, the new URL.
+
+2) Second Approach:
+Try renaming the existing remote or renaming the origin to a different name.  Run the rename command with the remote: git mv old_name new_name
+
+Once you have the repository initialized, you can implement the requests below into your code. As always, feel free to reach out on Teams or my personal number if you need
+any assistance. 
 
 ### How to Request Data
 ```json
