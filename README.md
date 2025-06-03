@@ -40,13 +40,14 @@ Use the following git flag in the CLI: –allow-unrelated-histories.
 followed by : git pull origin master --allow-unrelated-histories
 
 ‘fatal: remote origin already exists’
-1) Update the pointing URL of the handler by running the set-url command, then following it up with the handler name (usually origin), and lastly, the new URL.
+1) Update the pointing URL of the handler by running the set-url command, then following it up with the handler name (usually origin), and lastly,
+the new URL.
 
 2) Second Approach:
 Try renaming the existing remote or renaming the origin to a different name.  Run the rename command with the remote: git mv old_name new_name
 
-Once you have the repository initialized, you can implement the requests below into your code. As always, feel free to reach out on Teams or my personal number if you need
-any assistance. 
+Once you have the repository initialized, you can implement the requests below into your code. As always, feel free to reach out on Teams or my personal
+number if you nee any assistance. 
 
 ### How to Request Data
 ```json
