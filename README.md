@@ -122,6 +122,24 @@ Key Data Fields:
 •	dividend_returns: Dividends earned over the year.
 •	stock_val: The updated stock portfolio value.
 
+
+To verify the latest version of flask installed, run the following code in a Python script or interactive shell.:
+
+import flask
+print(flask.__version__)
+
+If Flask is installed, it will print the version number. 
+
+The start the Flask microservice by running: flask run --host=127.0.0.1 --port=8001
+
+
+Checklist
+1) Ensure latest version of python is installed
+2) Install dependencies 
+3) Clone or download the repository
+4) Run the Flask server (python app.py or flask run)
+5) Verify setup with a sample request
+
 The UML diagram can also be viewed by copy and pasting this link into any browser: https://raw.githubusercontent.com/wheelken/CS_361_SIM%20/main/UML_diagram.jpg
 ### UML Diagram
 
